@@ -16,12 +16,12 @@ body{
     image-rendering:pixelated;
 }
 #fanart{
-    align-items: center;
-    flex-direction:column;
+    display: flex;
+    flex-wrap: wrap;
 }
 #fanart img{
-    background-size:cover;
-    width:450px;
+    width:auto;
+    height: 300px;
 }
 #Q{
     background-size:cover;
